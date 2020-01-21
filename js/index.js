@@ -62,9 +62,7 @@ const mapStyle = [
     ]
   }
 ];
-var image =
-  "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
-var i = "/css/bull.png";
+var image ="img/bull.png"
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 19.979228, lng: 73.758438 },
@@ -75,6 +73,6 @@ function initMap() {
   var marker = new google.maps.Marker({
     position: { lat: 19.979228, lng: 73.758438 },
     map: map,
-    icon :i
+    icon :image
   });
 }
